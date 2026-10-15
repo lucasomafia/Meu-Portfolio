@@ -247,7 +247,7 @@ function Quarto({ sala, entrando }) {
 
   useFrame(({ clock, pointer }, delta) => {
     if (entrando) desligamento.current += delta;
-    // PC: 0–0.85 s. Room LEDs: 0.95–2.15 s. Page fade: 2.2–2.8 s.
+    // PC: 0–0.85 s. Room LEDs: 0.95–2.15 s. Lateral page transition starts after 2.2 s.
     const pcAceso = 1 - THREE.MathUtils.smoothstep(desligamento.current, 0, 0.85);
     const ledAceso = 1 - THREE.MathUtils.smoothstep(desligamento.current, 0.95, 2.15);
     monitor.current.color.setScalar(pcAceso);

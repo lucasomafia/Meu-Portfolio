@@ -1,0 +1,23 @@
+.github-stats { margin-top: 56px; padding: 40px 0; border-top: 1px solid #29272e; scroll-margin-top: 30px; }
+.stats-heading,.github-skyline-header,.github-skyline-footer,.waka-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.stats-heading h2 { font-size: 32px; font-weight: 500; letter-spacing: -.04em; margin: 12px 0 0; }
+.stats-demo { font-size: 12px; color: #aaa6b0; border: 1px solid #29272e; padding: 7px 10px; border-radius: 5px; }
+.github-skyline-header { margin-top: 32px; font-family: ui-monospace,monospace; color: #aaa6b0; }
+.stats-toggle { display: flex; gap: 4px; padding: 4px; border: 1px solid #29272e; border-radius: 8px; background: #101012; }
+.stats-toggle button { border: 0; background: transparent; color: #aaa6b0; padding: 7px 13px; border-radius: 4px; min-height: 36px; font: inherit; cursor: pointer; }
+.stats-toggle button[aria-pressed=true] { background: #193149; color: #73b7ff; }
+.contribution-skyline { display: block; width: 100%; height: 300px; touch-action: pan-y; user-select: none; cursor: grab; }
+.contribution-skyline:active { cursor: grabbing; }
+.github-skyline-footer { font-size: 12px; color: #aaa6b0; padding-bottom: 30px; border-bottom: 1px solid #29272e; }
+.contribution-intensity { display: flex; gap: 5px; align-items: center; }
+.contribution-intensity b { width: 11px; height: 11px; background: #132119; border-radius: 2px; }
+.contribution-intensity b:nth-of-type(2) { background: #0e4429; }.contribution-intensity b:nth-of-type(3) { background: #006d32; }.contribution-intensity b:nth-of-type(4) { background: #26a641; }.contribution-intensity b:nth-of-type(5) { background: #39d353; }
+.waka-header { margin: 28px 0 24px; }.waka-header h3 { font-size: 20px; margin: 0 0 6px; font-weight: 500; }.waka-header span { font-size: 13px; color: #aaa6b0; }
+.waka-layout { display: grid; grid-template-columns: 1fr 2fr; gap: 48px; }.waka-total strong { display: block; font-size: 40px; font-weight: 500; letter-spacing: -.04em; }.waka-total > span { font-size: 13px; color: #aaa6b0; }.waka-editor { margin-top: 22px; color: #aaa6b0; font-size: 13px; }
+.waka-row { margin-bottom: 16px; }.waka-row-label { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; margin-bottom: 8px; }.waka-row-label span:last-child { color: #aaa6b0; }.waka-track { height: 5px; background: #17222f; border-radius: 3px; overflow: hidden; }.waka-track span { display: block; height: 100%; background: #73b7ff; border-radius: 3px; }
+@media(max-width:600px) { .waka-layout { grid-template-columns: 1fr; gap: 24px; }.contribution-skyline { height: 220px; } }
+
+.contribution-summary { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 20px; font-size: 13px; color: #aaa6b0; }
+.contribution-summary strong { color: #f3f1f5; font-weight: 500; }
+.waka-status { color: #aaa6b0; font-size: 14px; line-height: 1.7; }
+.waka-retry { padding: 9px 14px; border: 1px solid #29272e; border-radius: 5px; background: #101012; color: #73b7ff; cursor: pointer; font: inherit; }

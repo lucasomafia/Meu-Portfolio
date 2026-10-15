@@ -1,7 +1,90 @@
 {
-  "meta": { "title": "Lucas | Portfolio" },
-  "nav": { "home": "Home", "me": "Me", "resume": "Resume", "projects": "Projects", "contact": "Contact", "label": "Main navigation" },
-  "switcher": { "label": "Language", "changeTo": "Switch to {{language}}" },
-  "home": { "welcome": "Welcome", "start": "Get started" },
-  "pages": { "me": "About me", "projects": "My projects", "resume": "Resume", "contact": "Contact" }
+  "meta": {
+    "title": "Lucas | Portfolio"
+  },
+  "nav": {
+    "home": "Home",
+    "me": "Me",
+    "resume": "Resume",
+    "projects": "Projects",
+    "contact": "Contact",
+    "label": "Main navigation"
+  },
+  "switcher": {
+    "label": "Language",
+    "changeTo": "Switch to {{language}}"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "start": "Get started"
+  },
+  "pages": {
+    "me": "About me",
+    "projects": "My projects",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "education": {
+    "kicker": "Background",
+    "title": "Education",
+    "status": "Undergraduate studies in progress",
+    "currentYear": "2026 · First year",
+    "end": "2030 · expected",
+    "progressLabel": "Estimated study period progress",
+    "progressDescription": "20%, estimated by year for 2026 to 2030; does not represent completed credits",
+    "progress": "20% of estimated period · 8 semesters",
+    "expected": "Expected graduation in 2030",
+    "degree": "Bachelor’s Degree in Software Engineering",
+    "institution": "Pontifical Catholic University of Minas Gerais · PUC Minas",
+    "period": "2026 — 2030 · EXPECTED GRADUATION",
+    "note": "Progress and remaining time are estimated from the study period; the graduation month has not been specified.",
+    "remainingYears_one": "About {{count}} year remaining",
+    "remainingYears_other": "About {{count}} years remaining",
+    "graduationYear": "Expected graduation year",
+    "semesterShort": "{{count}}"
+  },
+  "about": {
+    "photo": "Your photo",
+    "sections": "Sections on this page",
+    "role": "Software engineer",
+    "location": "Belo Horizonte, Brazil",
+    "globeLabel": "Technology globe: drag to rotate",
+    "languages": "Languages",
+    "frameworks": "Frameworks & build tools",
+    "tools": "Tools",
+    "instagramPending": "Instagram — link to be added",
+    "linkedinPending": "LinkedIn — link to be added",
+    "linksPending": "LinkedIn link coming soon.",
+    "intro": "I’m Lucas, and I’ve been passionate about games since childhood. They sparked my curiosity about the world of technology. Over the years, this interest grew beyond the screen into an increasing desire to understand how systems work and what lies behind each application. This curiosity led me to programming, where I found the opportunity to move from simply using technology to taking part in its creation.",
+    "bio": "I’m a technology enthusiast and software engineer in training, passionate about turning ideas into creative, functional solutions. I’m constantly exploring new technologies, improving my skills, and seeking challenges that help me grow as a developer. I believe programming goes beyond writing code: it’s about solving problems, creating experiences, and turning possibilities into reality."
+  },
+  "stats": {
+    "view": "Contribution view",
+    "sample": "Preview · sample data",
+    "skylineLabel": "Sample year of contributions as a green 3D skyline",
+    "drag": "Drag to rotate · double-click to reset",
+    "flat": "Contribution map · sample data",
+    "less": "Less",
+    "more": "More",
+    "timeCoding": "Time spent coding",
+    "period": "WakaTime period",
+    "codingSample": "coding · sample",
+    "contributionTotal": "{{count}} contributions",
+    "snapshot": "Saved data · {{date}}",
+    "loading": "Loading GitHub contributions…",
+    "error": "GitHub is temporarily unavailable. Please try again later.",
+    "flatReal": "Public GitHub contributions",
+    "skylineRealLabel": "Public GitHub contributions from lucasomafia in a green contribution chart"
+  },
+  "waka": {
+    "loading": "Loading WakaTime activity…",
+    "notConnected": "WakaTime is not connected yet.",
+    "authorization": "WakaTime authorization needs to be renewed.",
+    "calculating": "WakaTime is calculating your activity. Try again in a few minutes.",
+    "error": "Unable to load WakaTime right now.",
+    "retry": "Refresh",
+    "updating": "WakaTime is updating these statistics.",
+    "coding": "coding",
+    "empty": "No activity recorded for this period yet."
+  }
 }

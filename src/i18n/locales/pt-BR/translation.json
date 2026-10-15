@@ -1,7 +1,90 @@
 {
-  "meta": { "title": "Lucas | Portfólio" },
-  "nav": { "home": "Início", "me": "Sobre mim", "resume": "Currículo", "projects": "Projetos", "contact": "Contato", "label": "Navegação principal" },
-  "switcher": { "label": "Idioma", "changeTo": "Mudar para {{language}}" },
-  "home": { "welcome": "Bem-vindo", "start": "Começar" },
-  "pages": { "me": "Sobre mim", "projects": "Meus projetos", "resume": "Currículo", "contact": "Contato" }
+  "meta": {
+    "title": "Lucas | Portfólio"
+  },
+  "nav": {
+    "home": "Início",
+    "me": "Sobre mim",
+    "resume": "Currículo",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "label": "Navegação principal"
+  },
+  "switcher": {
+    "label": "Idioma",
+    "changeTo": "Mudar para {{language}}"
+  },
+  "home": {
+    "welcome": "Bem-vindo",
+    "start": "Começar"
+  },
+  "pages": {
+    "me": "Sobre mim",
+    "projects": "Meus projetos",
+    "resume": "Currículo",
+    "contact": "Contato"
+  },
+  "education": {
+    "kicker": "Trajetória",
+    "title": "Formação",
+    "status": "Graduação em andamento",
+    "currentYear": "2026 · 1º ano",
+    "end": "2030 · previsão",
+    "progressLabel": "Estimativa do período de formação",
+    "progressDescription": "20%, estimativa por ano do período de 2026 a 2030; não representa créditos concluídos",
+    "progress": "20% do período estimado · 8 semestres",
+    "expected": "Conclusão prevista em 2030",
+    "degree": "Bacharelado em Engenharia de Software",
+    "institution": "Pontifícia Universidade Católica de Minas Gerais · PUC Minas",
+    "period": "2026 — 2030 · CONCLUSÃO PREVISTA",
+    "note": "Progresso e tempo restante estimados pelo período informado; o mês de conclusão ainda não foi definido.",
+    "remainingYears_one": "Falta cerca de {{count}} ano",
+    "remainingYears_other": "Faltam cerca de {{count}} anos",
+    "graduationYear": "Ano previsto para conclusão",
+    "semesterShort": "{{count}}º"
+  },
+  "about": {
+    "photo": "Sua foto",
+    "sections": "Seções desta página",
+    "role": "Engenheiro de software",
+    "location": "Belo Horizonte, Brasil",
+    "globeLabel": "Globo de tecnologias: arraste para girar",
+    "languages": "Linguagens",
+    "frameworks": "Frameworks e build",
+    "tools": "Ferramentas",
+    "instagramPending": "Instagram — link a adicionar",
+    "linkedinPending": "LinkedIn — link a adicionar",
+    "linksPending": "LinkedIn: link em breve.",
+    "intro": "Sou Lucas e desde criança, sempre fui apaixonado por jogos, e foi através deles que minha curiosidade pelo universo da tecnologia começou a despertar. Com o passar dos anos, esse interesse foi além das telas, transformando-se em uma vontade cada vez maior de entender como os sistemas funcionam e o que existe por trás de cada aplicação. Essa curiosidade me levou ao mundo da programação, onde encontrei a oportunidade de deixar de ser apenas um usuário da tecnologia para também fazer parte de sua criação.",
+    "bio": "Sou entusiasta da tecnologia e engenheiro de software em formação, apaixonado por transformar ideias em soluções criativas e funcionais. Estou constantemente explorando novas tecnologias, aprimorando minhas habilidades e buscando desafios que me permitam evoluir como desenvolvedor. Acredito que a programação vai além de escrever códigos: é sobre resolver problemas, criar experiências e transformar possibilidades em realidade."
+  },
+  "stats": {
+    "view": "Visualização das contribuições",
+    "sample": "Prévia · dados demonstrativos",
+    "skylineLabel": "Exemplo de um ano de contribuições em um gráfico 3D verde",
+    "drag": "Arraste para girar · clique duplo para restaurar",
+    "flat": "Mapa de contribuições · dados demonstrativos",
+    "less": "Menos",
+    "more": "Mais",
+    "timeCoding": "Tempo dedicado ao código",
+    "period": "Período WakaTime",
+    "codingSample": "programando · exemplo",
+    "contributionTotal": "{{count}} contribuições",
+    "snapshot": "Dados salvos · {{date}}",
+    "loading": "Carregando contribuições do GitHub…",
+    "error": "GitHub indisponível no momento. Tente novamente mais tarde.",
+    "flatReal": "Contribuições públicas do GitHub",
+    "skylineRealLabel": "Contribuições públicas de lucasomafia no GitHub em um gráfico verde"
+  },
+  "waka": {
+    "loading": "Carregando atividade do WakaTime…",
+    "notConnected": "WakaTime ainda não conectado.",
+    "authorization": "A autorização do WakaTime precisa ser renovada.",
+    "calculating": "O WakaTime está calculando sua atividade. Tente novamente em alguns minutos.",
+    "error": "Não foi possível carregar o WakaTime agora.",
+    "retry": "Atualizar",
+    "updating": "O WakaTime está atualizando estas estatísticas.",
+    "coding": "programando",
+    "empty": "Nenhuma atividade registrada neste período ainda."
+  }
 }

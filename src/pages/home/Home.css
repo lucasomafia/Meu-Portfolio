@@ -7,11 +7,19 @@
   isolation: isolate;
 }
 
-.home > div:first-child {
-  position: relative;
-  z-index: 1;
-  transform: translateY(calc(min(100vw, 100svh) * 0.03));
-}
+.home::before { content: ""; position: absolute; inset: 0; z-index: 0; background: #080809; opacity: 0; pointer-events: none; }
+.home--entrando::before { animation: home-fundo-escurecer 3400ms ease-in-out forwards; }
+.home-cena { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.home-quarto { position: absolute; inset: 0; transform: translateY(calc(min(100vw, 100svh) * 0.03)); }
+.home:not(.home--entrando) .home-quarto { pointer-events: auto; }
+.home-destino { position: absolute; inset: 0; z-index: 1; overflow: hidden; animation: home-conteudo-aparecer 1200ms ease-in-out both; }
+.home-destino .sobre { background: transparent; }
+.home--deslizando .home-quarto { animation: home-elemento-sair 1200ms cubic-bezier(.65, 0, .2, 1) both; }
+.home--deslizando .titulo { animation: home-elemento-sair 1000ms cubic-bezier(.65, 0, .2, 1) both; }
+.home--deslizando .get-started { animation: home-elemento-sair 1050ms 80ms cubic-bezier(.65, 0, .2, 1) both; }
+@keyframes home-elemento-sair { from { translate: 0 0; } to { translate: -110vw 0; } }
+@keyframes home-conteudo-aparecer { 0%, 35% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes home-fundo-escurecer { 0%, 28% { opacity: 0; } 100% { opacity: 1; } }
 
 .home .home-composicao {
   position: absolute;
@@ -74,35 +82,8 @@
   transition: opacity 200ms ease, background 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
 }
 
-.home--entrando .titulo,
-.home--entrando .get-started {
-  opacity: 0;
-}
-
 .home .get-started:disabled {
   pointer-events: none;
-}
-
-.home--entrando > div:first-child {
-  animation: ambiente-apagando 2800ms ease-in forwards;
-}
-
-.home-escurecer {
-  position: absolute;
-  inset: 0;
-  z-index: 3;
-  background: #07040f;
-  animation: apagar-tela 2800ms ease-in forwards;
-}
-
-@keyframes apagar-tela {
-  0%, 78% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes ambiente-apagando {
-  0%, 78% { filter: brightness(1); }
-  100% { filter: brightness(0.25); }
 }
 
 .home .get-started:hover {
@@ -133,4 +114,8 @@
 .home .get-started:focus-visible {
   outline: 3px solid #fff;
   outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-destino, .home--entrando::before, .home--deslizando .home-quarto, .home--deslizando .titulo, .home--deslizando .get-started { animation-duration: 1ms; animation-delay: 0ms; }
 }

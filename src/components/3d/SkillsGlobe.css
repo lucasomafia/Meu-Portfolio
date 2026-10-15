@@ -1,0 +1,9 @@
+.skills-globe { position: relative; height: 330px; width: 100%; touch-action: pan-y; user-select: none; cursor: grab; }
+.skills-globe:active { cursor: grabbing; }
+.skills-globe canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.skills-globe-item { position: absolute; top: 0; left: 0; display: grid; place-items: center; width: 46px; height: 46px; border: 1px solid #b0d9ff55; border-radius: 50%; background: #eff7ff; cursor: pointer; }
+.skills-globe-item img { width: 27px; height: 27px; }
+.skills-globe-item span { position: absolute; top: calc(100% + 7px); padding: 4px 7px; border-radius: 4px; background: #142437; color: #eef5ff; font-size: 11px; white-space: nowrap; opacity: 0; pointer-events: none; }
+.skills-globe-item:hover span,.skills-globe-item:focus-visible span { opacity: 1; }
+.skills-globe-selected { height: 20px; text-align: center; color: #73b7ff; font-size: 13px; }
+@media(max-width: 450px) { .skills-globe { height: 290px; } }
