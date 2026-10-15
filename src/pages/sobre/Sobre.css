@@ -1,0 +1,25 @@
+.sobre {
+  padding: 80px 40px;
+  color: #fff;
+}
+
+.sobre--aparecer::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+  background: #07040f;
+  animation: revelar-sobre 350ms ease-out forwards;
+}
+
+@keyframes revelar-sobre {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sobre--aparecer::after {
+    display: none;
+  }
+}

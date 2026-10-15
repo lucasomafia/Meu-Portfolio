@@ -1,0 +1,31 @@
+.language-switcher {
+  position: fixed;
+  top: 18px;
+  right: 20px;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid #ffffff24;
+  border-radius: 8px;
+  background: #0b0b10e6;
+  color: #929292;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+}
+.language-option { display: inline-flex; align-items: center; }
+.language-switcher button {
+  min-width: 36px;
+  min-height: 36px;
+  padding: 6px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.language-switcher button[aria-pressed="true"] { color: #fff; }
+.language-switcher button:focus-visible { outline: 2px solid #bca4ff; outline-offset: 1px; }
+.language-divider { color: #62616b; }
+@media (max-width: 600px) {
+  .language-switcher { top: 12px; right: 12px; }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": { "title": "Lucas | Portfólio" },
+  "nav": { "home": "Início", "me": "Sobre mim", "resume": "Currículo", "projects": "Projetos", "contact": "Contato", "label": "Navegação principal" },
+  "switcher": { "label": "Idioma", "changeTo": "Mudar para {{language}}" },
+  "home": { "welcome": "Bem-vindo", "start": "Começar" },
+  "pages": { "me": "Sobre mim", "projects": "Meus projetos", "resume": "Currículo", "contact": "Contato" }
+}

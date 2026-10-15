@@ -1,0 +1,35 @@
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(32, 5, 91) 35%, rgba(22, 20, 82, 1) 100%);
+}
+
+.site-header {
+  padding: 20px 132px 20px 24px;
+  background: #080809;
+  border-bottom: 1px solid #29272e;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+}
+.site-header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 36px;
+}
+.site-header a {
+  padding: 8px 0;
+  color: #929292;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid transparent;
+}
+.site-header a:hover, .site-header a[aria-current="page"] { color: #fff; }
+.site-header a[aria-current="page"] { border-bottom-color: #fff; }
+.internal-page { padding: 80px 40px; color: #fff; }
+@media (max-width: 600px) {
+  .site-header { padding: 74px 16px 16px; }
+  .site-header .menu { gap: 10px 20px; }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": { "title": "Lucas | Portfolio" },
+  "nav": { "home": "Home", "me": "Me", "resume": "Resume", "projects": "Projects", "contact": "Contact", "label": "Main navigation" },
+  "switcher": { "label": "Language", "changeTo": "Switch to {{language}}" },
+  "home": { "welcome": "Welcome", "start": "Get started" },
+  "pages": { "me": "About me", "projects": "My projects", "resume": "Resume", "contact": "Contact" }
+}
