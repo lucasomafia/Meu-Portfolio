@@ -111,5 +111,13 @@
     "unavailable": "The form is temporarily unavailable. You can reach me using the email link beside it.",
     "rateLimited": "Please wait a moment before trying again.",
     "required": "Please fill in this field."
+  },
+  "projects": {
+    "title": "Ideas put into practice",
+    "intro": "A selection of what I’ve been building, from client work to academic projects.",
+    "previewSoon": "Preview coming soon",
+    "technologies": "Technologies used",
+    "code": "Source code",
+    "visit": "Visit website"
   }
 }

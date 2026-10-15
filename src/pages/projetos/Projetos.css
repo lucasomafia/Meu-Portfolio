@@ -1,0 +1,32 @@
+.projects-page { min-height: calc(100svh - 77px); padding: 56px 40px 80px; background: #080809; color: #f3f1f5; font-family: "Space Grotesk", system-ui, sans-serif; }
+.projects-page * { box-sizing: border-box; }
+.projects-content { max-width: 1150px; margin-inline: auto; }
+.projects-intro { margin-bottom: 56px; }
+.projects-eyebrow { color: #73b7ff; font: 13px ui-monospace,monospace; letter-spacing: .12em; text-transform: uppercase; }
+.projects-intro h1 { font-size: clamp(42px, 6vw, 68px); font-weight: 500; line-height: 1.1; letter-spacing: -.055em; margin: 20px 0; }
+.projects-intro h1 > span { color: #73b7ff; }
+.projects-intro > p { color: #aaa6b0; font-size: 16px; line-height: 1.8; max-width: 55ch; margin: 0; }
+.project-row { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 48px; align-items: stretch; padding: 42px 0; border-top: 1px solid #29272e; }
+.project-window { align-self: start; overflow: hidden; border: 1px solid #3a3a40; border-radius: 10px; background: #151519; box-shadow: 0 18px 48px #0003; }
+.project-window-bar { display: flex; align-items: center; gap: 12px; min-height: 33px; padding: 10px 12px; background: #242427; border-bottom: 1px solid #353539; }
+.project-window-controls { display: flex; gap: 6px; flex: 0 0 42px; }
+.project-window-controls span { width: 9px; height: 9px; border-radius: 50%; background: #ff5f57; }
+.project-window-controls span:nth-child(2) { background: #febc2e; }.project-window-controls span:nth-child(3) { background: #28c840; }
+.project-window-title { flex: 1; min-width: 0; text-align: center; font-size: 10px; color: #a5a2ad; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.project-window-spacer { width: 42px; }
+.project-window-content { overflow: hidden; background: #111318; }
+.project-window-content > img { display: block; width: 100%; height: auto; }
+.project-copy { display: flex; flex-direction: column; align-items: flex-start; padding-bottom: 4px; }
+.project-index { color: #73b7ff; font: 11px ui-monospace,monospace; letter-spacing: .08em; margin-bottom: 12px; }
+.project-copy h2 { font-size: clamp(25px, 3vw, 34px); line-height: 1.2; letter-spacing: -.04em; font-weight: 500; margin: 0 0 12px; }
+.project-category { color: #aaa6b0; font: 11px/1.7 ui-monospace,monospace; letter-spacing: .05em; text-transform: uppercase; margin: 0 0 22px; }
+.project-technologies { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0 0 22px; list-style: none; }
+.project-technologies li { padding: 7px 11px; background: #142a42; color: #8cc5ff; font-size: 12px; }
+.project-description { color: #aaa6b0; font-size: 14px; line-height: 1.85; margin: 0 0 24px; }
+.project-links { margin-top: auto; display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 10px; width: 100%; }
+.project-links a { display: inline-flex; align-items: center; gap: 10px; min-height: 42px; padding: 10px 14px; border: 1px solid #33313a; border-radius: 4px; color: #f3f1f5; text-decoration: none; font-size: 13px; transition: border-color 180ms ease, background 180ms ease; }
+.project-links a > img { filter: brightness(0) invert(1); }.project-links a > span { color: #73b7ff; }.project-links a:hover { border-color: #73b7ff; background: #121a23; }.project-links a:focus-visible { outline: 2px solid #73b7ff; outline-offset: 4px; }
+.project-preview-placeholder { aspect-ratio: 1.76; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; height: 100%; background: radial-gradient(ellipse at center,#17283a,#101318); color: #7394b2; font-size: 13px; }.project-preview-placeholder > span:first-child { font-size: 32px; color: #73b7ff; }
+@media(max-width: 850px) { .project-row { gap: 28px; }.project-copy h2 { font-size: 26px; } }
+@media(max-width: 650px) { .projects-page { padding: 36px 20px 50px; }.projects-intro { margin-bottom: 32px; }.project-row { grid-template-columns: 1fr; gap: 26px; padding: 32px 0; }.project-links { justify-content: flex-start; }.project-description { font-size: 15px; } }
+@media(prefers-reduced-motion: reduce) { .project-links a { transition: none; } }

@@ -17,6 +17,8 @@ meu-portfolio/
 ├── src/
 │   ├── assets/
 │   │   └── images/
+│   │       └── projetos/
+│   │           └── monitoramento-queimadas.png
 │   ├── components/
 │   │   ├── 3d/
 │   │   │   ├── ContributionSkyline.jsx
@@ -57,6 +59,7 @@ meu-portfolio/
 │   │   │   ├── Home.css
 │   │   │   └── home.jsx
 │   │   ├── projetos/
+│   │   │   ├── ProjectPreview.jsx
 │   │   │   ├── Projetos.css
 │   │   │   └── Projetos.jsx
 │   │   └── sobre/

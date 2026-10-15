@@ -4,6 +4,7 @@ import Education from "./Education/Education";
 import Skills from "./Skills/Skills";
 import GitHubStats from "./GitHubStats/GitHubStats";
 import "./Sobre.css";
+import profilePhoto from "../../assets/images/lucas-mafia.png";
 
 const iconUrl = name => `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/${name}.svg`;
 // Font Awesome Free 6.7.2 icons, CC BY 4.0: https://fontawesome.com/license/free
@@ -16,7 +17,7 @@ export default function Sobre() {
     <div className="sobre-content">
       <div className="about-profile">
         <aside className="about-sidebar">
-          <div className="about-photo" role="img" aria-label={t("about.photo")}><span aria-hidden="true">◯</span><span>{t("about.photo")}</span></div>
+          <div className="about-photo"><img src={profilePhoto} alt="Lucas Mafia" width="1086" height="1448" /></div>
           <nav className="about-shortcuts" aria-label={t("about.sections")}>
             <a href="#skills">Skills <span aria-hidden="true">↘</span></a>
             <a href="#github-stats">GitHub Stats <span aria-hidden="true">↘</span></a>

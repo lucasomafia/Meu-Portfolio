@@ -111,5 +111,13 @@
     "unavailable": "O formulário está temporariamente indisponível. Você pode entrar em contato pelo e-mail ao lado.",
     "rateLimited": "Aguarde um momento antes de tentar enviar novamente.",
     "required": "Preencha este campo."
+  },
+  "projects": {
+    "title": "Projetos em prática",
+    "intro": "Uma seleção do que venho construindo, entre trabalhos e projetos acadêmicos.",
+    "previewSoon": "Prévia em breve",
+    "technologies": "Tecnologias utilizadas",
+    "code": "Código-fonte",
+    "visit": "Ver site"
   }
 }
