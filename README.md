@@ -7,6 +7,8 @@ meu-portfolio/
 │   ├── _wakatime.js
 │   ├── github.js
 │   └── wakatime.js
+├── docs/
+│   └── emailjs.md
 ├── public/
 │   ├── curriculos/
 │   │   ├── Lucas_Otavio_Costa_Mafia_Curriculo_PT.pdf
@@ -28,9 +30,11 @@ meu-portfolio/
 │   │   └── SiteHeader/
 │   │       └── SiteHeader.jsx
 │   ├── config/
+│   │   ├── emailjsConfig.js
 │   │   ├── i18nConfig.js
 │   │   └── wakatimeConfig.js
 │   ├── data/
+│   │   ├── contact.js
 │   │   ├── curriculo.js
 │   │   ├── projetos.js
 │   │   ├── skills.js
@@ -44,6 +48,7 @@ meu-portfolio/
 │   │   └── index.js
 │   ├── pages/
 │   │   ├── contato/
+│   │   │   ├── Contato.css
 │   │   │   └── Contato.jsx
 │   │   ├── curriculo/
 │   │   │   ├── Curriculo.css
@@ -68,6 +73,7 @@ meu-portfolio/
 │   │       ├── Sobre.css
 │   │       └── Sobre.jsx
 │   ├── services/
+│   │   ├── contactService.js
 │   │   ├── githubService.js
 │   │   └── wakatimeService.js
 │   ├── App.jsx

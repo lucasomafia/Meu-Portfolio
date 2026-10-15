@@ -86,5 +86,30 @@
     "updating": "WakaTime is updating these statistics.",
     "coding": "coding",
     "empty": "No activity recorded for this period yet."
+  },
+  "contact": {
+    "title": "Let’s build something",
+    "intro": "I’m building my path in software development and looking for opportunities to put what I learn into practice. Have a project, an opening, or an idea that could be a good fit? Tell me about it.",
+    "details": "Contact information",
+    "available": "Open to opportunities & collaborations",
+    "email": "Email",
+    "locationLabel": "Location",
+    "socials": "Social profiles",
+    "languages": "Feel free to write in Portuguese or English. I’d love to hear your idea!",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "emailPlaceholder": "you@example.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "What would you like to talk about?",
+    "message": "Message",
+    "messagePlaceholder": "Tell me a little about your idea…",
+    "submit": "Send message",
+    "emailNotice": "Your message will be sent directly to my inbox.",
+    "sending": "Sending…",
+    "success": "Message sent! Thanks for reaching out.",
+    "error": "Unable to send right now. Try again or use the email link beside this form.",
+    "unavailable": "The form is temporarily unavailable. You can reach me using the email link beside it.",
+    "rateLimited": "Please wait a moment before trying again.",
+    "required": "Please fill in this field."
   }
 }

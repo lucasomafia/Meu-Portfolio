@@ -86,5 +86,30 @@
     "updating": "O WakaTime está atualizando estas estatísticas.",
     "coding": "programando",
     "empty": "Nenhuma atividade registrada neste período ainda."
+  },
+  "contact": {
+    "title": "Vamos construir algo",
+    "intro": "Estou construindo minha trajetória no desenvolvimento de software e procurando oportunidades para colocar o que aprendo em prática. Tem um projeto, uma vaga ou uma ideia que combina com isso? Me conta.",
+    "details": "Informações de contato",
+    "available": "Aberto a oportunidades e colaborações",
+    "email": "E-mail",
+    "locationLabel": "Localização",
+    "socials": "Redes sociais",
+    "languages": "Pode escrever em português ou inglês. Vou gostar de conhecer sua ideia!",
+    "name": "Nome",
+    "namePlaceholder": "Seu nome completo",
+    "emailPlaceholder": "voce@exemplo.com",
+    "subject": "Assunto",
+    "subjectPlaceholder": "Sobre o que vamos conversar?",
+    "message": "Mensagem",
+    "messagePlaceholder": "Conte um pouco sobre sua ideia…",
+    "submit": "Enviar mensagem",
+    "emailNotice": "Sua mensagem será enviada diretamente para meu e-mail.",
+    "sending": "Enviando…",
+    "success": "Mensagem enviada! Obrigado pelo contato.",
+    "error": "Não foi possível enviar agora. Tente novamente ou use meu e-mail ao lado.",
+    "unavailable": "O formulário está temporariamente indisponível. Você pode entrar em contato pelo e-mail ao lado.",
+    "rateLimited": "Aguarde um momento antes de tentar enviar novamente.",
+    "required": "Preencha este campo."
   }
 }
