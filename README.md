@@ -4,8 +4,13 @@
 meu-portfolio/
 ├── api/
 │   ├── _github.js
-│   └── github.js
+│   ├── _wakatime.js
+│   ├── github.js
+│   └── wakatime.js
 ├── public/
+│   ├── curriculos/
+│   │   ├── Lucas_Otavio_Costa_Mafia_Curriculo_PT.pdf
+│   │   └── Lucas_Otavio_Costa_Mafia_Resume_EN.pdf
 │   └── github-contributions.json
 ├── src/
 │   ├── assets/
@@ -17,14 +22,19 @@ meu-portfolio/
 │   │   │   ├── Quarto3D.jsx
 │   │   │   ├── SkillsGlobe.css
 │   │   │   └── SkillsGlobe.jsx
-│   │   └── LanguageSwitcher/
-│   │       ├── LanguageSwitcher.css
-│   │       └── LanguageSwitcher.jsx
+│   │   ├── LanguageSwitcher/
+│   │   │   ├── LanguageSwitcher.css
+│   │   │   └── LanguageSwitcher.jsx
+│   │   └── SiteHeader/
+│   │       └── SiteHeader.jsx
 │   ├── config/
-│   │   └── i18nConfig.js
+│   │   ├── i18nConfig.js
+│   │   └── wakatimeConfig.js
 │   ├── data/
+│   │   ├── curriculo.js
 │   │   ├── projetos.js
-│   │   └── skills.js
+│   │   ├── skills.js
+│   │   └── wakatimeDemo.js
 │   ├── i18n/
 │   │   ├── locales/
 │   │   │   ├── en/
@@ -36,6 +46,7 @@ meu-portfolio/
 │   │   ├── contato/
 │   │   │   └── Contato.jsx
 │   │   ├── curriculo/
+│   │   │   ├── Curriculo.css
 │   │   │   └── Curriculo.jsx
 │   │   ├── home/
 │   │   │   ├── Home.css
@@ -49,17 +60,20 @@ meu-portfolio/
 │   │       │   └── Education.jsx
 │   │       ├── GitHubStats/
 │   │       │   ├── GitHubStats.css
-│   │       │   └── GitHubStats.jsx
+│   │       │   ├── GitHubStats.jsx
+│   │       │   └── WakaTimeStats.jsx
 │   │       ├── Skills/
 │   │       │   ├── Skills.css
 │   │       │   └── Skills.jsx
 │   │       ├── Sobre.css
 │   │       └── Sobre.jsx
 │   ├── services/
-│   │   └── githubService.js
+│   │   ├── githubService.js
+│   │   └── wakatimeService.js
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
+├── .env.example
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
