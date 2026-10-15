@@ -5,6 +5,7 @@ import queimadasPreview from '../assets/images/projetos/monitoramento-queimadas.
 export const projetos = [
   {
     id: 'monitoramento-queimadas',
+    lastCommitAt: '2026-07-02T09:54:36-03:00',
     image: queimadasPreview,
     technologies: ['HTML', 'CSS', 'JavaScript'],
     repository: 'https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti1-0427100-firefighter-radar',
@@ -24,6 +25,7 @@ export const projetos = [
   },
   {
     id: 'casa-limpa',
+    lastCommitAt: '2026-10-08T11:11:34-03:00',
     image: casaLimpaPreview,
     technologies: ['HTML', 'CSS', 'JavaScript'],
     repository: 'https://github.com/lucasomafia/Casa-Limpa-produtos-de-limpeza',

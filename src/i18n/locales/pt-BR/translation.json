@@ -118,6 +118,8 @@
     "previewSoon": "Prévia em breve",
     "technologies": "Tecnologias utilizadas",
     "code": "Código-fonte",
-    "visit": "Ver site"
+    "visit": "Ver site",
+    "lastCommit": "Último commit",
+    "timelineOrder": "Atualizações dos projetos · da mais antiga à mais recente"
   }
 }

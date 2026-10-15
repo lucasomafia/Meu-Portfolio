@@ -118,6 +118,8 @@
     "previewSoon": "Preview coming soon",
     "technologies": "Technologies used",
     "code": "Source code",
-    "visit": "Visit website"
+    "visit": "Visit website",
+    "lastCommit": "Latest commit",
+    "timelineOrder": "Project updates · oldest to newest"
   }
 }

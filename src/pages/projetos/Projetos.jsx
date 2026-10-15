@@ -6,13 +6,18 @@ import "./Projetos.css";
 export default function Projetos() {
   const { t, i18n } = useTranslation();
   const lang = (i18n.resolvedLanguage || i18n.language).startsWith("pt") ? "pt" : "en";
+  const orderedProjects = [...projetos].sort((a, b) => new Date(a.lastCommitAt) - new Date(b.lastCommitAt));
+  const dateFormat = new Intl.DateTimeFormat(lang === "pt" ? "pt-BR" : "en-US", {
+    day: "2-digit", month: "short", year: "numeric", timeZone: "America/Sao_Paulo",
+  });
   return <main className="projects-page"><div className="projects-content">
     <header className="projects-intro"><span className="projects-eyebrow">{t("nav.projects")}</span><h1>{t("projects.title")}<span>.</span></h1><p>{t("projects.intro")}</p></header>
-    <div className="projects-list">{projetos.map((project, index) => {
+    <ol className="projects-list">{orderedProjects.map((project, index) => {
       const text = project[lang];
-      return <article className="project-row" key={project.id} aria-labelledby={`project-${project.id}`}>
+      return <li key={project.id}>
+        <article className="project-row" aria-labelledby={`project-${project.id}`}>
         <ProjectPreview image={project.image} imageAlt={text.imageAlt} title={text.title} />
-        <div className="project-copy"><span className="project-index">{String(index + 1).padStart(2, "0")}</span><h2 id={`project-${project.id}`}>{text.title}</h2><p className="project-category">{text.category}</p>
+        <div className="project-copy"><div className="project-meta"><span className="project-index">{String(index + 1).padStart(2, "0")}</span><time dateTime={project.lastCommitAt}>{dateFormat.format(new Date(project.lastCommitAt))}</time></div><h2 id={`project-${project.id}`}>{text.title}</h2><p className="project-category">{text.category}</p>
           {project.technologies.length > 0 && <ul className="project-technologies" aria-label={t("projects.technologies")}>{project.technologies.map(technology => <li key={technology}>{technology}</li>)}</ul>}
           <p className="project-description">{text.description}</p>
           {(project.repository || project.website) && <div className="project-links">
@@ -20,7 +25,7 @@ export default function Projetos() {
             {project.website && <a href={project.website} target="_blank" rel="noopener noreferrer">{t("projects.visit")}<span aria-hidden="true">↗</span></a>}
           </div>}
         </div>
-      </article>;
-    })}</div>
+      </article></li>;
+    })}</ol>
   </div></main>;
 }
