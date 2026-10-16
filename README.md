@@ -213,12 +213,7 @@ meu-portfolio/
 └── vite.config.js
 ```
 
-
-
-
 ## Protótipos
-
-Os wireframes abaixo representam a organização das páginas em baixa fidelidade.
 
 ### Início
 
