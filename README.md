@@ -42,6 +42,72 @@ A interface utiliza a fonte **Space Grotesk** e ícones do **Font Awesome Free**
 
 ---
 
+## Instalação e execução
+
+### Pré-requisitos
+
+- Node.js 22.12 ou superior.
+- npm e Git instalados.
+
+### Baixar o projeto
+
+```bash
+git clone https://github.com/lucasomafia/Meu-Portfolio.git
+cd Meu-Portfolio
+```
+
+### Instalar as dependências
+
+```bash
+npm ci
+```
+
+### Configurar o ambiente
+
+Copie o arquivo `.env.example` para um novo arquivo chamado `.env.local`, na raiz do projeto. Se ele já existir, preserve os valores configurados.
+
+Para habilitar o formulário de contato, preencha as variáveis com os dados da sua conta EmailJS:
+
+```env
+VITE_EMAILJS_SERVICE_ID=seu_service_id
+VITE_EMAILJS_TEMPLATE_ID=seu_template_id
+VITE_EMAILJS_PUBLIC_KEY=sua_chave_publica
+```
+
+Consulte o [guia de configuração do EmailJS](docs/emailjs.md) para mais detalhes. Utilize somente a chave pública do serviço.
+
+O WakaTime está em modo demonstrativo e não exige configuração para executar o projeto.
+
+### Executar localmente
+
+```bash
+npm run dev
+```
+
+Abra no navegador o endereço informado no terminal.
+
+### Gerar a versão de produção
+
+```bash
+npm run build
+```
+
+Os arquivos gerados ficam na pasta `dist`.
+
+Para visualizar essa versão localmente:
+
+```bash
+npm run preview
+```
+
+### Verificar o código
+
+```bash
+npm run lint
+```
+
+---
+
 ## Estrutura de diretórios
 
 O projeto está organizado da seguinte forma:
