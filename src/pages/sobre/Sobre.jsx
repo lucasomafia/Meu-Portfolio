@@ -34,6 +34,7 @@ export default function Sobre() {
             <a className="about-social" href="https://www.instagram.com/lucasomafia_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @lucasomafia_"><ActionIcon name="brands/instagram" /></a>
             <button type="button" className="about-social" aria-label={t("about.linkedinPending")} title={t("about.linkedinPending")} disabled><ActionIcon name="brands/linkedin-in" /></button>
             <a className="about-social" href="https://github.com/lucasomafia" target="_blank" rel="noreferrer" aria-label="GitHub"><ActionIcon name="brands/github" /></a>
+            <a className="about-social" href="https://wa.me/5531987850504" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +55 31 98785-0504"><ActionIcon name="brands/whatsapp" /></a>
           </div>
         </div>
       </div>
