@@ -74,7 +74,7 @@ VITE_EMAILJS_TEMPLATE_ID=seu_template_id
 VITE_EMAILJS_PUBLIC_KEY=sua_chave_publica
 ```
 
-Consulte o [guia de configuração do EmailJS](docs/emailjs.md) para mais detalhes. Utilize somente a chave pública do serviço.
+Utilize somente a chave pública do serviço.
 
 O WakaTime está em modo demonstrativo e não exige configuração para executar o projeto.
 
@@ -120,13 +120,12 @@ meu-portfolio/
 │   ├── github.js
 │   └── wakatime.js
 ├── docs/
-│   ├── prototipos/
-│   │   ├── 01-inicio.png
-│   │   ├── 02-sobre-mim.png
-│   │   ├── 03-curriculo.png
-│   │   ├── 04-projetos.png
-│   │   └── 05-contato.png
-│   └── emailjs.md
+│   └── prototipos/
+│       ├── 01-inicio.png
+│       ├── 02-sobre-mim.png
+│       ├── 03-curriculo.png
+│       ├── 04-projetos.png
+│       └── 05-contato.png
 ├── public/
 │   ├── curriculos/
 │   │   ├── Lucas_Otavio_Costa_Mafia_Curriculo_PT.pdf
