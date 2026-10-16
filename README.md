@@ -4,6 +4,8 @@ Bem-vindo ao código-fonte do meu site pessoal!
 
 Sou Lucas Otávio Costa Mafia, estudante de Engenharia de Software na PUC Minas. Este portfólio apresenta minha trajetória, conhecimentos, projetos e formas de contato.
 
+Acesse o site: [lucasmaf.ia.br](https://lucasmaf.ia.br).
+
 O site está organizado nas seguintes seções:
 
 - **Início** — Página de boas-vindas com um quarto 3D interativo e uma transição para a apresentação pessoal.
