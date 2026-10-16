@@ -23,6 +23,7 @@ export default function Curriculo() {
           <div className="resume-contacts">
             <a href="mailto:lucasomafia@gmail.com">lucasomafia@gmail.com</a>
             <a href="tel:+5531987850504">+55 31 98785-0504</a>
+            <a href="https://lucasmaf.ia.br" target="_blank" rel="noopener noreferrer">lucasmaf.ia.br</a>
             <a href="https://github.com/lucasomafia">GitHub</a>
             <a href="https://www.instagram.com/lucasomafia_/">Instagram</a>
           </div>
